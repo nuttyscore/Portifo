@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutty Profile</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Portfólio - Seu Nome</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Bem-vindo ao Mundo de NuttyNachos</h1>
-        <p class="lead">Dark, vibrante e totalmente único</p>
+    <header class="cabecalho">
+        <img src="imagens/foto-perfil.png" alt="Foto de perfil" class="cabecalho__foto">
+        <h1 class="cabecalho__titulo">Olá, eu sou o <span>Seu Nome</span> 👋</h1>
     </header>
 
-    <section class="card">
+    <section class="sobre">
         <h2>Sobre mim</h2>
-        <p>Sou o Nachos mais crocante da rede, com um toque sombrio e ousado. Aqui você encontra projetos, códigos e ideias que brilham no escuro 🔥🖤</p>
+        <p>Sou um desenvolvedor apaixonado por criar soluções criativas para a web. Atualmente estou estudando HTML, CSS e JavaScript.</p>
     </section>
 
-    <section class="card">
-        <h2>Me siga no GitHub</h2>
-        <a href="https://github.com/seu-usuario" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="GitHub" class="github-img">
-        </a>
+    <section class="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos__container">
+            <div class="projeto">
+                <img src="imagens/projeto1.png" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição breve do projeto.</p>
+                <a href="#" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="projeto">
+                <img src="imagens/projeto2.png" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição breve do projeto.</p>
+                <a href="#" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
     </section>
 
-    <section class="card">
-        <h2>Contato</h2>
-        <p>Você pode me achar também via <a href="mailto:nachos@email.com">email</a> ou lá no Discord: <strong>NuttyNachos#1234</strong></p>
-        <button onclick="alert('Valeu por visitar!')">Clique aqui!</button>
-    </section>
-
+    <footer class="rodape">
+        <p>© 2025 - Desenvolvido por Seu Nome</p>
+    </footer>
 </body>
 </html>
-
